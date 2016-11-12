@@ -1,0 +1,3 @@
+#!/bin/sh
+chmod 666 sys/module/qpnp_smbcharger/parameters/default_dcp_icl_ma
+chmod 666 sys/module/qpnp_smbcharger/parameters/default_hvdcp_icl_ma

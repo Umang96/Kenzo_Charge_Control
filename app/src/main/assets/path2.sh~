@@ -1,0 +1,6 @@
+#!/bin/sh
+mount -o remount,rw /system
+cp ~/sdcard/Android/data/com.umang96.yurekathermalcontrol/files/thermal ~/sdcard/thermal
+cp ~/sdcard/Android/data/com.umang96.yurekathermalcontrol/files/thermal-engine2.conf ~/system/etc/thermal-engine.conf
+chmod 644 ~/system/etc/thermal-engine.conf
+echo "Balanced" > ~/sdcard/thermal
